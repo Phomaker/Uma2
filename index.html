@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @import url(./style.css); */
+        @charset 'UTF-8';
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+        @font-face {
+            font-family: "LexiSaebomR";
+            font-style: normal;
+            font-weight: 400;
+            src: url("https://cdn.jsdelivr.net/gh/jbfactory/jb-skin-fonts/fonts/LexiSaebomR.woff") format("woff");
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* font-family: 'Noto Sans KR', sans-serif; */
+            background-color: yellowgreen;
+            font-family: "Noto+Sans+KR";
+
+
+        }
+
+        header {
+            top: 10vh;
+            font-size: 24px;
+            color: white;
+            margin-bottom: 1vh;
+            margin-top: 1vh;
+        }
+
+        #content-wrap {
+            width: 90vw;
+            display: flex;
+            background-color: #f1f1f1;
+            font-size: 16px;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        article {
+            padding-left: 5vw;
+            padding-right: 5vw;
+        }
+
+        #content-wrap article #strong {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+        }
+
+        p {
+            margin-top: 10px;
+            line-height: 180%;
+
+        }
+
+        img {
+            width: 100%;
+        }
+
+        #explain{
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <b> 우정담 방문 후기 </b>
+    </header>
+    <div id="content-wrap">
+        <article>
+            <br>
+            <img src="./asset/setting.jpg" alt="세팅">
+            <div id="explain">[기본 테이블 세팅]</div>
+            <p>
+                첫인상이 좋았다. 
+            </p>
+            <p>
+                일단 인테리어가 제법. 테이블 매트와 식기 받침들, 물수건까지도 대리석 식탁과 통일감을 주는 색상이라 마음에 들었다.
+            </p>
+            <p>
+                고급스러워 보이는 생수도 굿. 참고로 찾아봤더니 코카콜라 제품이었다. 여기까지는 아주 만족스러웠지만.
+            </p>
+            <P></P>
+
+            <br>
+        </article>
+    </div>
+
+</body>
+
+</html>
